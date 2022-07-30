@@ -1,0 +1,25 @@
+body {
+    background-color: #bbbbd6a7;
+    width:500px;
+    margin: auto;
+}
+#title{
+    color: rgb(71, 47, 94)
+}
+#memo {
+    color: rgb(113, 82, 144)
+}
+ul {
+    margin-top: 35px;
+    padding-left: 10px;
+}
+ul li {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    padding: 30px 0px 30px 15px;
+    background-color: #E8E6E0;
+    border: solid 3px #7B6B86;
+    border-radius: 50px;
+    list-style: none;
+}

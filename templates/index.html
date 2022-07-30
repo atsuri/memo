@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <title>ひとことメモ</title>
+  </head>
+  <body>
+    <h1 id="title">ひとことメモ</h1>
+    <ul>
+      {% for memo in memos %}
+        <li><span id="memo">{{ memo }}</span></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
